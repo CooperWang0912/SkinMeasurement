@@ -6,15 +6,15 @@ public class SkinAreaCalculator {
     public static void main(String[]args){
         SkinAreaCalculator runner = new SkinAreaCalculator();
 
-        int weight;
-        int height;
+        double weight;
+        double height;
         int age;
         double BMA = 0;
 
         System.out.println("Please input your weight in kg");
-        weight = runner.scanner.nextInt();
+        weight = runner.scanner.nextDouble();
         System.out.println("Please input your height in cm");
-        height = runner.scanner.nextInt();
+        height = runner.scanner.nextDouble();
         System.out.println("Please input your age");
         age = runner.scanner.nextInt();
 
